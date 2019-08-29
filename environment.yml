@@ -1,0 +1,25 @@
+name: gsa
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - autopep8
+  - ipykernel
+  - libiconv
+  - matplotlib
+  - numpy
+  - pandas
+  - pytz
+  - sqlite
+  - conda-forge::osmnx
+  - conda-forge::geopandas
+  - conda-forge::xerces-c
+  - conda-forge::ca-certificates
+  - conda-forge::fontconfig
+  - conda-forge::freetype
+  - conda-forge::gdal
+  # - conda-forge::poppler<0.66
+  # - conda-forge::poppler-data
+  # - conda-forge::postgis
+  - conda-forge::postgresql
+  - conda-forge::shapely
